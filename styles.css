@@ -1,0 +1,83 @@
+body {
+  background-color: #faf8ef;
+  color: #795548;
+}
+
+.container {
+  width: 410px;
+  margin: 0px auto;
+}
+
+.header {
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.score-container {
+  margin-top: 10px;
+  width: 100px;
+  height: 70px;
+  background-color: #bcaaa4;
+  border-radius: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  float: right;
+}
+
+.score-title {
+  color: #d7ccc8;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score {
+  color: #faf8ef;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  margin: 20px 0px;
+  padding: 5px;
+  background-color: #bcaaa4;
+  border-radius: 5px;
+}
+
+.cell {
+  margin: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 90px;
+  background-color: #d7ccc8;
+  float: left;
+}
+
+.message {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(238, 228, 218, 0.73);
+  line-height: 400px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text {
+  margin: 20px 0;
+  font-size: 20px;
+  text-align: center;
+}
