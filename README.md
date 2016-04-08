@@ -1,1 +1,5 @@
-Implementation of 2048 Game in javascript.
+#2048
+
+####Implementation in JavaScript.
+
+You can play it [here](http://ankt271192.github.io/2048).
